@@ -1,5 +1,5 @@
 stack: kontena/fluentd-elasticsearch
-version: 0.1.0
+version: 0.1.1
 description: Fluent forwarding to Elasticsearch
 variables:
   host:
