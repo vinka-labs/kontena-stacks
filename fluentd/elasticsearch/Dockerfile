@@ -9,4 +9,4 @@ RUN apk add --update --virtual .build-deps \
     && rm -rf /var/cache/apk/* \
             /home/fluent/.gem/ruby/2.3.0/cache/*.gem
 
-ADD elasticsearch-template-es5x.json .
+ADD elasticsearch-template-es6x.json .
