@@ -25,7 +25,7 @@ variables:
 
 services:
   agent:
-    image: kontena/fluentd-elasticsearch:latest
+    image: registry.hub.docker.com/thisside/kontena-elastic-fluent:4
     environment:
       ELASTIC_USER: {{ user }}
       ELASTIC_HOST: {{ host }}
